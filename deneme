@@ -1,0 +1,15 @@
+dict = {"CRINGE": "garip ya da utandırıcı bir şey",
+        "LOL" : "komik bir şeye verilen cevap",
+        "ROFL" : "bir şakaya karşılık cevap",
+        "SHEESH" : "onaylamamak",
+        "CREEPY" : "korkunç",
+        "AGGRO" : "agresifleşmek/sinirlenmek",
+        }
+while True:
+    word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yazın!): ")
+    if word in dict.keys():
+        print(dict[word])
+        
+    else:
+        print("Bu Kelime Sözlükte Yoktur Başka Bir Kelime Deneyiniz")
+        
